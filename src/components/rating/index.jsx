@@ -19,7 +19,7 @@ function Rating() {
         alt={`Rating ${rating}`}
       />
 
-      <div style={{ display: 'flex', gap: '1rem' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem' }}>
         <button onClick={() => setRating(0)}>Плохо</button>
         <button onClick={() => setRating(1)}>Приемлемо</button>
         <button onClick={() => setRating(2)}>Хорошо</button>

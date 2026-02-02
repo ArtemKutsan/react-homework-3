@@ -11,6 +11,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -31,9 +35,18 @@ button {
   padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 0.75rem;
+  min-height: 2rem;
+  min-width: 2rem;
 }
 
 button:hover {
   background-color: purple;
   color: white;
+}
+
+.container {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
